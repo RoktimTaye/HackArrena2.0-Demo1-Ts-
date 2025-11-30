@@ -13,7 +13,8 @@ export const apiFetch = async (
       headers["Authorization"] = `Bearer ${accessToken}`;
     }
   }
-  const resp = await fetch(`http://localhost:4000/api${path}`, {
+  const baseUrl = import.meta.env.VITE_API_URL || "http://localhost:4000";
+  const resp = await fetch(`${baseUrl}/api${path}`, {
     ...options,
     headers
   });
