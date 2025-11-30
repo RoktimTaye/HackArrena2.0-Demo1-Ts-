@@ -1,84 +1,58 @@
-# 🏥 HMS Platform - Project Overview & Walkthrough
+# Hospital Management System (HMS) - Functional Overview
 
-This document is designed to help you present the **Hospital Management System (HMS)** platform effectively. It outlines the core problems we solve, our key features, and a step-by-step demo flow.
+This document provides a detailed list of all functionalities available in the HMS application, categorized by module and user role.
 
----
+## 1. Authentication & Security
+- **Multi-Tenancy**: Support for multiple hospitals (tenants) within a single deployment.
+- **Hospital Registration**: Self-service registration for new hospitals to create their own tenant.
+- **Secure Login**: Role-based login with JWT authentication.
+- **Role-Based Access Control (RBAC)**: Granular permissions for different roles (Admin, Doctor, Nurse, Receptionist, Lab Technician, Pharmacist).
 
-## 🚀 **Elevator Pitch**
-The HMS Platform is a **Multi-Tenant SaaS solution** designed to digitize hospital operations. Unlike traditional systems that are installed locally, our platform allows multiple hospitals to sign up and manage their data securely in the cloud, with complete data isolation. It streamlines everything from patient registration to doctor prescriptions, all in one modern, secure interface.
+## 2. Dashboard
+**Role-Specific Views:**
+- **Receptionist**: View key statistics (Total Patients, New Patients Today, Appointments Today).
+- **Doctor**: View personal statistics (Assigned Patients, Pending Labs) and an Interactive Appointment Calendar.
+- **Hospital Admin**: View overall hospital statistics.
 
----
+## 3. Patient Management
+- **Patient Registration**: Register new patients with demographic details.
+- **Patient List**:
+  - Search patients by name.
+  - Filter by type: OPD (Outpatient) or IPD (Inpatient).
+  - View patient details (Contact, Department).
+- **OPD to IPD Conversion**:
+  - **Restricted Feature**: Only Nurses and Receptionists can convert an OPD patient to IPD.
 
-## ✨ **Key Features (The "Wow" Factors)**
+## 4. Appointment Management
+- **Book Appointment**: Schedule appointments for patients with specific doctors.
+- **Assign Doctor**: Manually assign a primary doctor to a patient.
+- **Doctor Calendar**: Doctors can view their monthly schedule and daily appointments.
 
-### 1. **Multi-Tenancy Architecture (SaaS Ready)**
--   **What it is:** One codebase serves multiple hospitals, but each hospital's data is completely isolated.
--   **Why it matters:** Scalable, secure, and cost-effective.
--   **Tech Highlight:** We use a "Schema-per-Tenant" approach in MongoDB to ensure strict data separation.
+## 5. Clinical Management
+- **Vitals Recording**: Record and track patient vitals (Blood Pressure, Temperature, Pulse, etc.).
+- **Prescription Management**:
+  - **Create Prescription**: Doctors can create digital prescriptions with medicines, dosage, and instructions.
+  - **Prescription History**: View past prescriptions for a patient.
+  - **PDF Generation**: Generate and print prescriptions as PDF.
 
-### 2. **Self-Service Onboarding**
--   **Feature:** Hospitals can register themselves instantly.
--   **Demo Point:** Show the registration page where a hospital admin sets up their account and gets immediate access.
+## 6. Laboratory Management
+- **Lab Requests**: Doctors can request lab tests for patients.
+- **Lab Dashboard**:
+  - Dedicated view for Lab Technicians.
+  - View pending lab requests.
+  - **Upload Results**: Upload test reports (PDF/Images) and add comments.
+  - Mark requests as completed.
+- **View Results**: Doctors can view uploaded lab results directly from the patient's record.
 
-### 3. **Role-Based Access Control (RBAC)**
--   **What it is:** Different users see different things.
--   **Roles:**
-    -   **Hospital Admin:** Manages users, settings, and overall hospital data.
-    -   **Doctor:** Manages patients, appointments, and prescriptions.
-    -   **Receptionist:** Handles patient registration and scheduling.
--   **Demo Point:** Login as an Admin to see everything, then login as a Doctor to see a focused view.
+## 7. User Management (Admin)
+- **User List**: View all staff members in the hospital.
+- **Add User**: Create new accounts for Doctors, Nurses, Receptionists, etc.
+- **Role Assignment**: Assign specific roles and departments to users.
 
-### 4. **Comprehensive Patient Management**
--   **Features:** OPD (Outpatient) & IPD (Inpatient) registration, photo uploads, and detailed medical history.
--   **Search:** Powerful filtering to find patients by name, department, or date.
+## 8. Regionalization
+- **Multi-language Support**: The application supports multiple languages (English, Hindi, Tamil, Telugu, Malayalam) to cater to diverse regions.
 
-### 5. **Digital Prescriptions**
--   **Feature:** Doctors can create digital prescriptions with medicines, dosages, and instructions.
--   **Templates:** Doctors can save common prescriptions as templates to save time.
--   **Export:** Generate PDF prescriptions instantly.
-
----
-
-## 🎬 **Demo Walkthrough Script**
-
-**Step 1: The Onboarding (Hospital Registration)**
-1.  Go to `/hospital/register`.
-2.  Fill in the hospital details (Name, Address, License No).
-3.  **New Feature:** Set your own Admin Username and Password directly.
-4.  Submit and show the "Registration Successful" confirmation.
-
-**Step 2: Admin Dashboard & User Management**
-1.  Login with the Admin credentials you just created.
-2.  Show the **Dashboard** (Overview of stats).
-3.  Navigate to **Users**.
-4.  Create a new user (e.g., a Doctor). Explain how the system auto-generates their initial credentials or sends an invite.
-
-**Step 3: Patient Registration (Receptionist Workflow)**
-1.  (Optional) Login as the Receptionist (or stay as Admin).
-2.  Go to **Patients** -> **New Patient**.
-3.  Register a dummy patient (e.g., "John Doe").
-4.  Show how they appear in the Patient List immediately.
-
-**Step 4: Clinical Workflow (Doctor Workflow)**
-1.  Login as a Doctor.
-2.  Find "John Doe" in the patient list.
-3.  Click **Create Prescription**.
-4.  Add a few medicines (e.g., Paracetamol, Amoxicillin).
-5.  Save the prescription.
-
----
-
-## 🛠️ **Technology Stack**
-
--   **Frontend:** React, TypeScript, Material UI (MUI) - *Fast, responsive, and beautiful.*
--   **Backend:** Node.js, Express, TypeScript - *Robust and scalable.*
--   **Database:** MongoDB - *Flexible schema for complex medical data.*
--   **Caching:** Redis - *High-performance session management.*
--   **Security:** JWT Authentication, BCrypt Hashing, HelmetJS.
-
----
-
-## 🔮 **Future Roadmap**
--   **Lab Integration:** Managing lab tests and results directly in the portal.
--   **Patient Portal:** Mobile app for patients to view their own prescriptions and appointments.
--   **Billing & Insurance:** Integrated invoicing and claims processing.
+## 9. UI/UX Features
+- **Modern Interface**: Clean, medical-themed UI with a teal/blue color palette.
+- **Responsive Design**: Accessible on desktops and tablets.
+- **Feedback Systems**: Success/Error notifications for all major actions.
