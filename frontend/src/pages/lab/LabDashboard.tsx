@@ -61,7 +61,8 @@ export const LabDashboard = () => {
                 headers["Authorization"] = `Bearer ${accessToken}`;
             }
 
-            const response = await fetch(`http://localhost:4000/api/lab-requests/${uploadDialog.id}/results`, {
+            const baseUrl = import.meta.env.VITE_API_URL || "";
+            const response = await fetch(`${baseUrl}/api/lab-requests/${uploadDialog.id}/results`, {
                 method: "POST",
                 headers,
                 body: formData
@@ -154,7 +155,7 @@ export const LabDashboard = () => {
                                             <Button
                                                 size="small"
                                                 variant="text"
-                                                href={`http://localhost:4000${req.resultFileUrl}`}
+                                                href={`${import.meta.env.VITE_API_URL || ""}${req.resultFileUrl}`}
                                                 target="_blank"
                                             >
                                                 View Result

@@ -55,7 +55,8 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   }, []);
 
   const login = async ({ tenantId, username, password }: any) => {
-    const resp = await fetch("http://localhost:4000/api/oauth/token", {
+    const baseUrl = import.meta.env.VITE_API_URL || "";
+    const resp = await fetch(`${baseUrl}/api/oauth/token`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({

@@ -72,8 +72,9 @@ const PatientListPage = ({ defaultType = "" }: { defaultType?: "OPD" | "IPD" | "
       headers["Authorization"] = `Bearer ${accessToken}`;
     }
     const typeParam = type ? `&type=${type}` : "";
+    const baseUrl = import.meta.env.VITE_API_URL || "";
     const resp = await fetch(
-      `http://localhost:4000/api/patients/export/csv?search=${encodeURIComponent(
+      `${baseUrl}/api/patients/export/csv?search=${encodeURIComponent(
         search
       )}${typeParam}`,
       { headers }
