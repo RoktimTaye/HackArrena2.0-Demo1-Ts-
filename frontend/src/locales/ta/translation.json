@@ -1,0 +1,79 @@
+{
+  "auth": {
+    "loginTitle": "HMS உள்நுழைவு",
+    "tenantId": "டெனன்ட் ஐடி",
+    "username": "பயனர் பெயர்",
+    "password": "கடவுச்சொல்",
+    "loginButton": "உள்நுழை",
+    "hospitalRegisterLink": "மருத்துவமனை சுய பதிவு"
+  },
+  "onboarding": {
+    "hospitalRegisterTitle": "மருத்துவமனை சுய பதிவு",
+    "name": "பெயர்",
+    "address": "முகவரி",
+    "contactEmail": "தொடர்பு மின்னஞ்சல்",
+    "contactPhone": "தொடர்பு தொலைபேசி",
+    "licenseNumber": "உரிமம் எண்",
+    "registerButton": "பதிவு செய்",
+    "registeredMessage": "வெற்றிகரமாக பதிவு செய்யப்பட்டது. சரிபார்த்து செயல்படுத்த உங்கள் மின்னஞ்சலைப் பாருங்கள்.",
+    "registerFailed": "பதிவு தோல்வியடைந்தது"
+  },
+  "dashboard": {
+    "title": "டாஷ்போர்டு",
+    "welcome": "HMS-க்கு வரவேற்கிறோம், டெனன்ட்: {{tenantId}}"
+  },
+  "patients": {
+    "menu": "நோயாளிகள்",
+    "registerPatientMenu": "நோயாளி பதிவு",
+    "opdPatientsMenu": "ஓபிடி நோயாளிகள்",
+    "ipdPatientsMenu": "ஐபிடி நோயாளிகள்",
+    "title": "நோயாளிகள்",
+    "search": "தேடு",
+    "exportCsv": "CSV ஏற்றுமதி",
+    "registerTitle": "நோயாளி பதிவு",
+    "name": "பெயர்",
+    "dob": "பிறந்த தேதி",
+    "gender": "பாலினம்",
+    "bloodGroup": "இரத்த வகை",
+    "contact": "தொடர்பு",
+    "email": "மின்னஞ்சல்",
+    "address": "முகவரி",
+    "emergencyContact": "அவசர தொடர்பு",
+    "type": "நோயாளி வகை",
+    "opd": "ஓபிடி",
+    "ipd": "ஐபிடி",
+    "save": "சேமிக்கவும்",
+    "registeredMessage": "நோயாளி வெற்றிகரமாக பதிவு செய்யப்பட்டார்",
+    "registerFailed": "நோயாளி பதிவு தோல்வியடைந்தது",
+    "table": {
+      "patientId": "நோயாளர் ஐடி",
+      "type": "வகை",
+      "department": "துறை"
+    }
+  },
+  "prescriptions": {
+    "menu": "மருந்து சீட்டு",
+    "newMenu": "புதிய மருந்து சீட்டு",
+    "createTitle": "மருந்து சீட்டு உருவாக்கு",
+    "patientId": "நோயாளர் ஐடி",
+    "template": "வார்ப்புரு",
+    "none": "இல்லை",
+    "medicineName": "மருந்து பெயர்",
+    "dosage": "அளவு",
+    "frequency": "அடிக்கடி",
+    "duration": "காலம்",
+    "instructions": "வழிமுறைகள்",
+    "addMedicine": "மருந்து சேர்க்கவும்",
+    "savePrescription": "மருந்து சீட்டை சேமிக்கவும்",
+    "createdMessage": "மருந்து சீட்டு உருவாக்கப்பட்டது",
+    "createFailed": "மருந்து சீட்டு உருவாக்க தோல்வியடைந்தது"
+  },
+  "layout": {
+    "changeLanguage": "மொழி"
+  },
+  "menu": {
+    "dashboard": "டாஷ்போர்டு",
+    "patients": "நோயாளிகள்",
+    "prescriptions": "மருந்து சீட்டு"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "auth": {
+    "loginTitle": "एचएमएस लॉगिन",
+    "tenantId": "टेनेंट आईडी",
+    "username": "उपयोगकर्ता नाम",
+    "password": "पासवर्ड",
+    "loginButton": "लॉगिन",
+    "hospitalRegisterLink": "अस्पताल स्वयं-पंजीकरण"
+  },
+  "onboarding": {
+    "hospitalRegisterTitle": "अस्पताल स्वयं-पंजीकरण",
+    "name": "नाम",
+    "address": "पता",
+    "contactEmail": "संपर्क ईमेल",
+    "contactPhone": "संपर्क फोन",
+    "licenseNumber": "लाइसेंस नंबर",
+    "registerButton": "पंजीकरण करें",
+    "registeredMessage": "सफलतापूर्वक पंजीकृत। सत्यापन और सक्रियण के लिए अपना ईमेल देखें।",
+    "registerFailed": "पंजीकरण असफल रहा"
+  },
+  "dashboard": {
+    "title": "डैशबोर्ड",
+    "welcome": "एचएमएस में आपका स्वागत है, टेनेंट: {{tenantId}}"
+  },
+  "patients": {
+    "menu": "रोगी",
+    "registerPatientMenu": "रोगी पंजीकरण",
+    "opdPatientsMenu": "ओपीडी रोगी",
+    "ipdPatientsMenu": "आईपीडी रोगी",
+    "title": "रोगी",
+    "search": "खोज",
+    "exportCsv": "सीएसवी निर्यात करें",
+    "registerTitle": "रोगी पंजीकरण",
+    "name": "नाम",
+    "dob": "जन्म तिथि",
+    "gender": "लिंग",
+    "bloodGroup": "ब्लड ग्रुप",
+    "contact": "संपर्क",
+    "email": "ईमेल",
+    "address": "पता",
+    "emergencyContact": "आपातकालीन संपर्क",
+    "type": "रोगी प्रकार",
+    "opd": "ओपीडी",
+    "ipd": "आईपीडी",
+    "save": "सहेजें",
+    "registeredMessage": "रोगी सफलतापूर्वक पंजीकृत",
+    "registerFailed": "रोगी पंजीकरण असफल",
+    "table": {
+      "patientId": "रोगी आईडी",
+      "type": "प्रकार",
+      "department": "विभाग"
+    }
+  },
+  "prescriptions": {
+    "menu": "प्रिस्क्रिप्शन",
+    "newMenu": "नया प्रिस्क्रिप्शन",
+    "createTitle": "प्रिस्क्रिप्शन बनाएँ",
+    "patientId": "रोगी आईडी",
+    "template": "टेम्पलेट",
+    "none": "कोई नहीं",
+    "medicineName": "दवा का नाम",
+    "dosage": "डोज़",
+    "frequency": "आवृत्ति",
+    "duration": "अवधि",
+    "instructions": "निर्देश",
+    "addMedicine": "दवा जोड़ें",
+    "savePrescription": "प्रिस्क्रिप्शन सहेजें",
+    "createdMessage": "प्रिस्क्रिप्शन बनाया गया",
+    "createFailed": "प्रिस्क्रिप्शन बनाने में असफल"
+  },
+  "layout": {
+    "changeLanguage": "भाषा"
+  },
+  "menu": {
+    "dashboard": "डैशबोर्ड",
+    "patients": "रोगी",
+    "prescriptions": "प्रिस्क्रिप्शन"
+  }
+}

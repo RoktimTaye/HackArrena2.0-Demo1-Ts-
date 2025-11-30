@@ -1,0 +1,108 @@
+{
+  "auth": {
+    "loginTitle": "HMS Login",
+    "tenantId": "Tenant ID",
+    "username": "Username",
+    "password": "Password",
+    "loginButton": "Login",
+    "hospitalRegisterLink": "Hospital Self-Registration"
+  },
+  "onboarding": {
+    "hospitalRegisterTitle": "Hospital Self-Registration",
+    "name": "Name",
+    "address": "Address",
+    "contactEmail": "Contact Email",
+    "contactPhone": "Contact Phone",
+    "licenseNumber": "License Number",
+    "registerButton": "Register",
+    "registeredMessage": "Registered successfully. Check your email to verify and activate.",
+    "registerFailed": "Failed to register"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome to HMS, tenant: {{tenantId}}",
+    "totalPatients": "Total Patients",
+    "newPatients": "New Patients (Today)",
+    "appointmentsToday": "Appointments Today",
+    "assignedPatients": "Assigned Patients",
+    "pendingLabs": "Pending Lab Requests",
+    "calendar": "Appointment Calendar"
+  },
+  "patients": {
+    "menu": "Patients",
+    "registerPatientMenu": "Register Patient",
+    "opdPatientsMenu": "OPD Patients",
+    "ipdPatientsMenu": "IPD Patients",
+    "title": "Patients",
+    "search": "Search",
+    "exportCsv": "Export CSV",
+    "registerTitle": "Register Patient",
+    "name": "Name",
+    "dob": "Date of Birth",
+    "gender": "Gender",
+    "bloodGroup": "Blood Group",
+    "contact": "Contact",
+    "email": "Email",
+    "address": "Address",
+    "emergencyContact": "Emergency Contact",
+    "type": "Patient Type",
+    "opd": "OPD",
+    "ipd": "IPD",
+    "save": "Save",
+    "registeredMessage": "Patient registered successfully",
+    "registerFailed": "Failed to register patient",
+    "table": {
+      "patientId": "Patient ID",
+      "type": "Type",
+      "department": "Department"
+    }
+  },
+  "prescriptions": {
+    "menu": "Prescriptions",
+    "newMenu": "New Prescription",
+    "createTitle": "Create Prescription",
+    "patientId": "Patient ID",
+    "template": "Template",
+    "none": "None",
+    "medicineName": "Name",
+    "dosage": "Dosage",
+    "frequency": "Frequency",
+    "duration": "Duration",
+    "instructions": "Instructions",
+    "addMedicine": "Add Medicine",
+    "savePrescription": "Save Prescription",
+    "createdMessage": "Prescription created",
+    "createFailed": "Failed to create prescription"
+  },
+  "layout": {
+    "changeLanguage": "Language"
+  },
+  "menu": {
+    "dashboard": "Dashboard",
+    "patients": "Patients",
+    "prescriptions": "Prescriptions",
+    "lab": "Lab",
+    "users": "Users"
+  },
+  "lab": {
+    "dashboardTitle": "Lab Dashboard",
+    "requestId": "Request ID",
+    "patientId": "Patient ID",
+    "patient": "Patient",
+    "type": "Type",
+    "notes": "Notes",
+    "status": "Status",
+    "actions": "Actions",
+    "markCompleted": "Complete",
+    "noRequests": "No lab requests found",
+    "requestTitle": "Lab Request for {{name}}",
+    "testType": "Test Type",
+    "sendRequest": "Send Request"
+  },
+  "common": {
+    "close": "Close",
+    "cancel": "Cancel",
+    "saving": "Saving...",
+    "refresh": "Refresh"
+  }
+}

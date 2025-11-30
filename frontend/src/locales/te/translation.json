@@ -1,0 +1,79 @@
+{
+  "auth": {
+    "loginTitle": "HMS లోనికి ప్రవేశం",
+    "tenantId": "టెనెంట్ ఐడి",
+    "username": "వాడుకరి పేరు",
+    "password": "పాస్వర్డ్",
+    "loginButton": "లోనికి వెళ్ళు",
+    "hospitalRegisterLink": "ఆసుపత్రి స్వీయ నమోదు"
+  },
+  "onboarding": {
+    "hospitalRegisterTitle": "ఆసుపత్రి స్వీయ నమోదు",
+    "name": "పేరు",
+    "address": "చిరునామా",
+    "contactEmail": "సంప్రదింపు ఇమెయిల్",
+    "contactPhone": "సంప్రదింపు ఫోన్",
+    "licenseNumber": "లైసెన్స్ నంబర్",
+    "registerButton": "నమోదు చేయి",
+    "registeredMessage": "విజయవంతంగా నమోదు అయింది. ధృవీకరణ మరియు సక్రియత కోసం మీ ఇమెయిల్ చూడండి.",
+    "registerFailed": "నమోదు విఫలమైంది"
+  },
+  "dashboard": {
+    "title": "డాష్‌బోర్డ్",
+    "welcome": "HMS కు స్వాగతం, టెనెంట్: {{tenantId}}"
+  },
+  "patients": {
+    "menu": "రోగులు",
+    "registerPatientMenu": "రోగి నమోదు",
+    "opdPatientsMenu": "ఓపిడీ రోగులు",
+    "ipdPatientsMenu": "ఐపిడీ రోగులు",
+    "title": "రోగులు",
+    "search": "వెతుకు",
+    "exportCsv": "CSV ఎగుమతి",
+    "registerTitle": "రోగి నమోదు",
+    "name": "పేరు",
+    "dob": "పుట్టిన తేది",
+    "gender": "లింగం",
+    "bloodGroup": "రక్త గుంపు",
+    "contact": "సంప్రదింపు",
+    "email": "ఇమెయిల్",
+    "address": "చిరునామా",
+    "emergencyContact": "అత్యవసర సంప్రదింపు",
+    "type": "రోగి రకం",
+    "opd": "ఓపిడీ",
+    "ipd": "ఐపిడీ",
+    "save": "సేవ్",
+    "registeredMessage": "రోగి విజయవంతంగా నమోదు అయ్యారు",
+    "registerFailed": "రోగి నమోదు విఫలమైంది",
+    "table": {
+      "patientId": "రోగి ఐడి",
+      "type": "రకం",
+      "department": "విభాగం"
+    }
+  },
+  "prescriptions": {
+    "menu": "ప్రిస్క్రిప్షన్‌లు",
+    "newMenu": "కొత్త ప్రిస్క్రిప్షన్",
+    "createTitle": "ప్రిస్క్రిప్షన్ సృష్టించండి",
+    "patientId": "రోగి ఐడి",
+    "template": "టెంప్లేట్",
+    "none": "ఏదియు లేదు",
+    "medicineName": "మందు పేరు",
+    "dosage": "మోతాదు",
+    "frequency": "ఎంత తరచుగా",
+    "duration": "వ్యవధి",
+    "instructions": "సూచనలు",
+    "addMedicine": "మందు జోడించండి",
+    "savePrescription": "ప్రిస్క్రిప్షన్ సేవ్ చేయండి",
+    "createdMessage": "ప్రిస్క్రిప్షన్ సృష్టించబడింది",
+    "createFailed": "ప్రిస్క్రిప్షన్ సృష్టించడం విఫలమైంది"
+  },
+  "layout": {
+    "changeLanguage": "భాష"
+  },
+  "menu": {
+    "dashboard": "డాష్‌బోర్డ్",
+    "patients": "రోగులు",
+    "prescriptions": "ప్రిస్క్రిప్షన్‌లు"
+  }
+}

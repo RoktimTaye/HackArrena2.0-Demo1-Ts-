@@ -1,0 +1,79 @@
+{
+  "auth": {
+    "loginTitle": "HMS ലോഗിൻ",
+    "tenantId": "ടേനന്റ് ഐഡി",
+    "username": "ഉപയോക്തൃനാമം",
+    "password": "പാസ്വേഡ്",
+    "loginButton": "ലോഗിൻ",
+    "hospitalRegisterLink": "ആശുപത്രി സ്വയം രജിസ്ട്രേഷൻ"
+  },
+  "onboarding": {
+    "hospitalRegisterTitle": "ആശുപത്രി സ്വയം രജിസ്ട്രേഷൻ",
+    "name": "പേര്",
+    "address": "വിലാസം",
+    "contactEmail": "സമ്പർക്ക ഇമെയിൽ",
+    "contactPhone": "സമ്പർക്ക ഫോൺ",
+    "licenseNumber": "ലൈസൻസ് നമ്പർ",
+    "registerButton": "രജിസ്റ്റർ ചെയ്യുക",
+    "registeredMessage": "വിജയകരമായി രജിസ്റ്റർ ചെയ്തു. സാധൂകരിക്കാനും സജീവമാക്കാനും നിങ്ങളുടെ ഇമെയിൽ പരിശോധിക്കുക.",
+    "registerFailed": "രജിസ്ട്രേഷൻ പരാജയപ്പെട്ടു"
+  },
+  "dashboard": {
+    "title": "ഡാഷ്ബോർഡ്",
+    "welcome": "HMS-ലേക്ക് സ്വാഗതം, ടേനന്റ്: {{tenantId}}"
+  },
+  "patients": {
+    "menu": "രോഗികൾ",
+    "registerPatientMenu": "രോഗി രജിസ്ട്രേഷൻ",
+    "opdPatientsMenu": "ഓപിഡി രോഗികൾ",
+    "ipdPatientsMenu": "ഐപിഡി രോഗികൾ",
+    "title": "രോഗികൾ",
+    "search": "തിരയുക",
+    "exportCsv": "CSV എക്സ്പോർട്ട്",
+    "registerTitle": "രോഗി രജിസ്ട്രേഷൻ",
+    "name": "പേര്",
+    "dob": "ജനനത്തിയതി",
+    "gender": "ലിംഗം",
+    "bloodGroup": "രക്തഗ്രൂപ്പ്",
+    "contact": "സമ്പർക്കം",
+    "email": "ഇമെയിൽ",
+    "address": "വിലാസം",
+    "emergencyContact": "അടിയന്തര ബന്ധം",
+    "type": "രോഗി തരം",
+    "opd": "ഓപിഡി",
+    "ipd": "ഐപിഡി",
+    "save": "സേവ്",
+    "registeredMessage": "രോഗി വിജയകരമായി രജിസ്റ്റർ ചെയ്തു",
+    "registerFailed": "രോഗി രജിസ്ട്രേഷൻ പരാജയപ്പെട്ടു",
+    "table": {
+      "patientId": "രോഗി ഐഡി",
+      "type": "തരം",
+      "department": "വിഭാഗം"
+    }
+  },
+  "prescriptions": {
+    "menu": "പ്രിസ്ക്രിപ്ഷൻ",
+    "newMenu": "പുതിയ പ്രിസ്ക്രിപ്ഷൻ",
+    "createTitle": "പ്രിസ്ക്രിപ്ഷൻ സൃഷ്ടിക്കുക",
+    "patientId": "രോഗി ഐഡി",
+    "template": "ടെംപ്ലേറ്റ്",
+    "none": "ഒന്നുമില്ല",
+    "medicineName": "മരുന്നിന്റെ പേര്",
+    "dosage": "ഡോസ്",
+    "frequency": "അവധിക്ക് ഇടയിൽ",
+    "duration": "ദൈർഘ്യം",
+    "instructions": "നിര്‍ദ്ദേശങ്ങള്‍",
+    "addMedicine": "മരുന്ന് ചേർക്കുക",
+    "savePrescription": "പ്രിസ്ക്രിപ്ഷൻ സേവ് ചെയ്യുക",
+    "createdMessage": "പ്രിസ്ക്രിപ്ഷൻ സൃഷ്ടിച്ചു",
+    "createFailed": "പ്രിസ്ക്രിപ്ഷൻ സൃഷ്ടിക്കൽ പരാജയപ്പെട്ടു"
+  },
+  "layout": {
+    "changeLanguage": "ഭാഷ"
+  },
+  "menu": {
+    "dashboard": "ഡാഷ്ബോർഡ്",
+    "patients": "രോഗികൾ",
+    "prescriptions": "പ്രിസ്ക്രിപ്ഷൻ"
+  }
+}
