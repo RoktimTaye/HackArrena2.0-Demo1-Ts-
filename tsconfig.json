@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "CommonJS",
+        "skipLibCheck": true,
+        "esModuleInterop": true
+    },
+    "include": [],
+    "exclude": [
+        "frontend",
+        "backend",
+        "node_modules"
+    ]
+}
